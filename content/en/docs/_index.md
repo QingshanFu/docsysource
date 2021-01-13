@@ -1,6 +1,6 @@
 
 ---
-title: "Welcome to Docsy"
+title: "Welcome to Docsy1"
 linkTitle: "Documentation"
 menu:
   main:
