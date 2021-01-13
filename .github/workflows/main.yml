@@ -26,6 +26,9 @@ jobs:
         with:
           hugo-version: '0.80.0'
           extended: true
+          
+      - name: Postcss
+        run: npm install postcss-cli
 
       - name: Build
         run: hugo --minify
