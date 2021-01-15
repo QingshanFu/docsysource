@@ -11,7 +11,7 @@ enableGitInfo = true
 
 # Language settings
 contentDir = "content/content/en"
-defaultContentLanguage = "en"
+#defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -59,9 +59,13 @@ anchor = "smart"
     weight = 40
     url = "https://example.docsy.dev"
 [[menu.main]]
-    name = "GitHub"
+    name = "Santa Cruze"
     weight = 50
-    url = "https://github.com/QingshanFu/docsysource/"
+    url = "./santa"
+#[[menu.main]]
+#    name = "GitHub"
+#    weight = 50
+#    url = "https://github.com/QingshanFu/docsysource/"
 
 [services]
 [services.googleAnalytics]
