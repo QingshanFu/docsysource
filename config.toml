@@ -61,7 +61,7 @@ anchor = "smart"
 [[menu.main]]
     name = "Santa Cruze"
     weight = 50
-    url = "./santa"
+    url = "santa_readme"
 #[[menu.main]]
 #    name = "GitHub"
 #    weight = 50
