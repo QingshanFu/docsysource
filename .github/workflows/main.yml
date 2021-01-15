@@ -16,14 +16,14 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-18.04
       
-    steps:
-      - name: content
-        run: git submodule update --init --remote --recursive 
-        
+    steps: 
       - uses: actions/checkout@v1  # v2 does not have submodules option now
         with:
           submodules: true  
-                
+      
+      - name: content
+        run: git submodule update --init --remote --recursive 
+        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
